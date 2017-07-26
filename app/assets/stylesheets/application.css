@@ -15,5 +15,42 @@
  */
 
 body {
+	background-color: lightgrey;
   font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+
+h1 {
+	color: #333;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+thead {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+	
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #fff;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666;
+	text-decoration: none;
 }
