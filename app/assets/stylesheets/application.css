@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-	color: #333;
+	color: #555;
 	font-size: 25px;
 	font-weight: bold;
 	line-height: 1;
@@ -54,9 +54,10 @@ a:active {
 }
 
 a:hover {
-	background-color: #fff;
+	background-color: lightgrey;
 	color: #fff;
 	text-decoration: none;
+	text-shadow: 0.5px 0.5px darkgrey;
 }
 
 a:link {

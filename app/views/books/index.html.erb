@@ -2,6 +2,12 @@
 
 <h1>Books</h1>
 
+ <div class="welcome">Welcome 
+	 <% if current_user %>
+     <%= User.find(session[:user_id]).first_name %>
+   <% end %>
+ </div>
+<p></p>
 <table>
   <thead>
     <tr>
