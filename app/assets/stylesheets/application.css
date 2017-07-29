@@ -41,13 +41,42 @@ h4 {
 }
 
 thead {
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 table {
-	
+	table-layout: fixed;
+	width: 1240px;
 }
+
+.title {
+	width: 20%;
+}
+
+.author {
+	width: 10%;
+}
+
+.describe {
+	width: 33%;
+}
+
+.link {
+	width: 20%;
+}
+
+.user_edit {
+	width: 15%;
+}
+
+td {
+  height: 30px;
+	overflow: hidden;
+  text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 
 a:active {
 	text-decoration: none;
